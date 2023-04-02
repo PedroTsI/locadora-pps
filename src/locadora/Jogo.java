@@ -49,9 +49,8 @@ public class Jogo implements Alugavel{
     }
 
 
-    public int getPAF(int diasAlugada) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getPAF'");
+    public int getPAF(int diasAlugado) {
+        return classificacao.getPafValue(diasAlugado);
     }
 
 }
